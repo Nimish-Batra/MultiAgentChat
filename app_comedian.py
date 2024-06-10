@@ -6,7 +6,7 @@ import os
 
 os.environ["OPENAI_API_TYPE"] = "azure"
 os.environ["OPENAI_API_BASE"] = "https://ea-openai.openai.azure.com/"
-main_key=os.environ["OPENAI_API_KEY"]
+os.environ["OPENAI_API_KEY"]="OPENAI_API_KEY"
 os.environ["OPENAI_API_VERSION"] = "2023-05-15"
 
 ## Streamlit UI

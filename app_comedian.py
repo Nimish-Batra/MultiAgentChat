@@ -30,7 +30,9 @@ harsh_instructions = SystemMessage(
 bassi_instructions = SystemMessage(
     content=bassi_instructions_text
 )
-
+with st.sidebar:
+    st.slider("Select the number of conversations you want",min_value=1,max_value=20)
+    
 def comedy_dual(turns=5):
     conversation_history = []  # to store the context and flow of conversation
     initial_joke="Hey I am Harsh. Bassi ,Let's keep the conversation rolling"

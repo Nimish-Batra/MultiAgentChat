@@ -1,3 +1,2 @@
 streamlit
-os
 langchain==0.2.2
